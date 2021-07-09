@@ -5,8 +5,8 @@ import "./assets/styles/reset.css";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import GlobalStyle from "./assets/styles/global";
 import { ThemeProvider } from "styled-components";
-import light from "./assets/styles/themes/light";
-import dark from "./assets/styles/themes/dark";
+import gray from "./assets/styles/themes/gray";
+import blue from "./assets/styles/themes/blue";
 
 import Users from "./pages/users/Users";
 import Posts from "./pages/posts/Posts";
@@ -14,11 +14,11 @@ import NavBar from "./components/navBar/NavBar";
 
 function App() {
 
-    const [darkTheme, setDarkTheme] = useState(false);
+    const [blueTheme, setBlueTheme] = useState(false);
 
 
     return (
-        <ThemeProvider theme={darkTheme ? dark : light}>
+        <ThemeProvider theme={blueTheme ? blue : gray}>
             <Router>
                 <GlobalStyle />
                 <NavBar />
