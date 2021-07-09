@@ -8,7 +8,6 @@ import { ThemeProvider } from "styled-components";
 import blue from "./assets/styles/themes/blue";
 import gray from "./assets/styles/themes/gray";
 
-
 import Users from "./pages/users/Users";
 import Posts from "./pages/posts/Posts";
 import NavBar from "./components/navBar/NavBar";
