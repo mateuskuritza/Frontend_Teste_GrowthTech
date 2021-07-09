@@ -23,7 +23,7 @@ export default function User({ postId, title, body, name, company }) {
 
 const UserContainer = styled.div`
 
-    margin: 10px auto;
+    margin: 10px;
     padding: 10px;
     width: 300px;
     height: 240px;
