@@ -23,6 +23,7 @@ function App() {
                 <GlobalStyle />
                 <NavBar />
                 <Switch>
+                    <Route path="/" exact component={Users} />
                     <Route path="/users" exact component={Users} />
                     <Route path="/posts" exact component={Posts} />
                 </Switch>
