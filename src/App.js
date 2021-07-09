@@ -23,7 +23,7 @@ function App() {
                 <NavBar />
                 <Switch>
                     <Route path="/users" exact component={Users} />
-                    <Route path="/users" exact component={Posts} />
+                    <Route path="/posts" exact component={Posts} />
                 </Switch>
             </Router>
         </ThemeProvider>
