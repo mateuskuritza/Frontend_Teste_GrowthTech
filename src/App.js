@@ -11,6 +11,7 @@ import gray from "./assets/styles/themes/gray";
 import Users from "./pages/users/Users";
 import Posts from "./pages/posts/Posts";
 import NavBar from "./components/navBar/NavBar";
+import ThemeButton from "./components/ThemeButton";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/users" exact component={Users} />
                     <Route path="/posts" exact component={Posts} />
                 </Switch>
+                <ThemeButton blueTheme={blueTheme} setBlueTheme={setBlueTheme} />
             </Router>
         </ThemeProvider>
     );
